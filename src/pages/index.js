@@ -124,6 +124,8 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                        <input type="hidden" name="form-name" value="contact" />
+                                        <p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
                                     </div>
                                 </form>
                                 <ul className="actions">
