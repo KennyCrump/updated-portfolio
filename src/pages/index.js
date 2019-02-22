@@ -75,8 +75,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Kenny Crump's Portfolio"
+        const siteDescription = "Portfolio for Full Stack Web Developer Kenny Crump"
 
         return (
             <Layout>
@@ -114,6 +114,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
+                    <a name="contact"></a>
                         <h2>Get In Touch</h2>
                         <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
                         <div className="row">
@@ -132,14 +133,12 @@ class HomeIndex extends React.Component {
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        <a href="www.linkedin.com/in/kenny-crump" target='_blank'><h3 className="icon fa-linkedin"><span className="label">LinkedIn</span></h3>
+                                        www.linkedin.com/in/kenny-crump</a><br />
                                     </li>
                                     <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        <a href="https://github.com/KennyCrump" target='_blank'><h3 className="icon fa-github"><span className="label">Github</span></h3>
+                                        https://github.com/KennyCrump</a>
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>

@@ -80,6 +80,7 @@ class Gallery extends Component {
         );
     }
     render () {
+        console.log(this.props.images[this.state.currentImage].description)
         return (
             <div>
                 {this.renderGallery()}
@@ -92,6 +93,7 @@ class Gallery extends Component {
                     onClickPrev={this.gotoPrevious}
                     onClickThumbnail={this.gotoImage}
                     onClose={this.closeLightbox}
+                    caption={this.props.images[this.state.currentImage].description}
                 />
             </div>
         );
